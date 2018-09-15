@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/news_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/size_6dp"
+    card_view:cardBackgroundColor="@color/card_view_background_color"
+    card_view:cardCornerRadius="@dimen/card_view_cornor_radius">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/size_5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/news_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/title_color"
+            android:padding="@dimen/size_4dp"
+            android:textStyle="bold"
+            tools:text="@string/title" />
+
+
+        <TextView
+            android:id="@+id/section_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/size_4dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold"
+            tools:text="@string/section_sample" />
+        <TextView
+            android:id="@+id/author_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/size_4dp"
+            android:textColor="@color/author_background_color"
+            android:textStyle="bold"
+            tools:text="@string/author_name" />
+
+
+        <TextView
+            android:id="@+id/date_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/size_4dp"
+            android:textColor="@color/date_text_color"
+            tools:text="@string/date" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

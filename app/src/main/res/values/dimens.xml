@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_view_cornor_radius">8dp</dimen>
+    <dimen name="size_16dp">16dp</dimen>
+    <dimen name="size_50dp">50dp</dimen>
+    <dimen name="size_6dp">6dp</dimen>
+    <dimen name="size_4dp">4dp</dimen>
+    <dimen name="size_5dp">8dp</dimen>
+</resources>
